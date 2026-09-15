@@ -1,3 +1,3 @@
-import _ from "lodash";
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+import df from "./src/index.js";
+const func = df();
+console.log(func);
