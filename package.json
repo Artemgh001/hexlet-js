@@ -1,23 +1,26 @@
 {
   "name": "hexlet",
-  "type": "module",
   "version": "1.0.0",
   "description": "My first project Мой первый проект на Хекслете",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/Artemgh001/hexlet-js#readme",
+  "bugs": {
+    "url": "https://github.com/Artemgh001/hexlet-js/issues"
   },
+  "license": "ISC",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Artemgh001/hexlet-js.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Artemgh001/hexlet-js/issues"
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/Artemgh001/hexlet-js#readme",
   "dependencies": {
     "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.68.0"
   }
 }
